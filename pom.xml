@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -14,6 +15,14 @@
     <name>Simple Parameterized Builds Report Plugin</name>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Simple+Parameterized+Builds+Report+plugin</url>
 
+    <licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <developers>
         <developer>
             <id>nullin</id>
@@ -23,11 +32,12 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/nullin/simple-parameterized-builds-report.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/nullin/simple-parameterized-builds-report.git</developerConnection>
+        <connection>scm:git:git://github.com/jenkinsci/simple-parameterized-builds-report-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/simple-parameterized-builds-report-plugin.git
+        </developerConnection>
         <url>https://github.com/nullin/simple-parameterized-builds-report</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
